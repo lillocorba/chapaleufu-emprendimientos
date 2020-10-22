@@ -1,0 +1,43 @@
+/* 
+VARIABLES:
+COLOR VERDE: #729D4E 
+FUENTE: font-family: 'Josefin Sans', sans-serif;
+*/
+
+body {
+    font-size: 62,5%;
+}
+
+/* HERO */
+
+.hero {
+    background-image: url(../imagenes/bg-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 20px 100px 20px;
+}
+
+.hero__line--green {
+    background-color: white;
+    width: 40px;
+    height: 5px;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+.hero__h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 30px;
+}
+
+.hero__p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 20px;
+    font-weight: 300;
+}
