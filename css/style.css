@@ -1,6 +1,7 @@
 /* 
 VARIABLES:
-COLOR VERDE: #729D4E 
+COLOR VERDE: #729D4E
+GRIS OSCURO: #383838
 FUENTE: font-family: 'Josefin Sans', sans-serif;
 */
 
@@ -8,7 +9,7 @@ body {
     font-size: 62,5%;
 }
 
-/* HERO */
+/* SOFTWARE */
 
 .hero {
     background-image: url(../imagenes/bg-hero.jpg);
@@ -40,4 +41,222 @@ body {
     color: white;
     margin-top: 20px;
     font-weight: 300;
+}
+
+/* FEATURES SOFTWARE */
+
+.features {
+    background-color: white;
+    padding: 100px 20px 100px 20px;
+}
+
+.features__h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #383838;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+}
+
+.features__h4-card {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #383838;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.features__p-card {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #383838;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.features__col--cards {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+.features__icon {
+    width: 50px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.features__col--btn {
+    text-align: center;
+}
+
+.features__btn {
+    background-color: #383838;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.features__btn:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* LOGISTIC */
+
+.logistic {
+    background-image: url(../imagenes/bg-logistica.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 20px 100px 20px;
+}
+
+.features__icon--logistic {
+    width: 20px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.features__h4-card--logistic {
+    font-size: 1.2rem;
+}
+
+/* BENEFITS */
+
+.benefits {
+    background-image: url(../imagenes/bg-quote.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 100px 20px;
+}
+
+.benefits__col1 {
+    text-align: center;
+}
+
+.benefits__h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+}
+
+.benefits__btn {
+    border: none;
+    background-color: white;
+    color: #383838;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px 10px 20px;
+}
+
+.benefits__btn:hover {
+    text-decoration: none;
+    color: #383838;
+}
+
+/* START */
+
+.start {
+    background-image: url(../imagenes/bg-comenzamos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px 100px 20px;
+}
+
+.start__col1 {
+    text-align: center;
+}
+
+.start__h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    margin-top: 30px;
+    color: white;
+}
+
+.start__h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.start__p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.start__form {
+    text-align: center;
+}
+
+.form__input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    border: solid 1px white;
+    border-radius: 100px;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.form__input:active, .form__input:focus {
+    outline: none;
+    color: white;
+}
+
+.form__input::placeholder {
+    color: white;
+}
+
+.form__btn {
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    border: solid 1px white;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+
+.form__input--mensaje {
+    border-radius: 20px;
+} 
+
+/* FOOTER */
+
+.footer {
+    padding: 50px 20px 50px 20px;
+    background-color: white;
+}
+
+.footer__h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #383838;
+    text-align: center;
+}
+
+.footer__h4--guinda {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #383838;
+    text-align: center;
+}
+
+.footer__h4 a:hover {
+    text-decoration: none;
 }
