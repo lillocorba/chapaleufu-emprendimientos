@@ -7,6 +7,7 @@ FUENTE: font-family: 'Josefin Sans', sans-serif;
 
 body {
     font-size: 62,5%;
+    scroll-behavior: smooth;
 }
 
 /* SOFTWARE */
@@ -26,6 +27,12 @@ body {
     z-index: 1;
     position: absolute;
     top: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.hero__line--green--active {
+    opacity: 1;
 }
 
 .hero__h3 {
@@ -33,6 +40,14 @@ body {
     font-size: 2rem;
     color: white;
     margin-top: 30px;
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 0.5s;
+}
+
+.hero__h3--active {
+    opacity: 1;
+    transform: translate(0%);
 }
 
 .hero__p {
@@ -41,6 +56,25 @@ body {
     color: white;
     margin-top: 20px;
     font-weight: 300;
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 1s;
+}
+
+.hero__p--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.hero__h4 {
+    opacity: 0;
+    transform: translate(-100px);
+    transition: all 1s ease-in-out;
+}
+
+.hero__h4--active {
+    opacity: 1;
+    transform: translate(0%);
 }
 
 /* FEATURES SOFTWARE */
@@ -56,6 +90,14 @@ body {
     text-align: center;
     font-size: 1.6rem;
     margin-bottom: 50px;
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 1.5s;
+}
+
+.features__h3--active {
+    opacity: 1;
+    transform: translate(0%);
 }
 
 .features__h4-card {
@@ -79,6 +121,61 @@ body {
     padding: 10px 0px 10px 0px;
 }
 
+.features__col--cards--1 {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.features__col--cards--1--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.features__col--cards--2 {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 0.3s;
+}
+
+.features__col--cards--2--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.features__col--cards--3 {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 0.6s;
+}
+
+.features__col--cards--3--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.features__col--cards--4 {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.features__col--cards--4--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.features__col--cards--5 {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 0.3s;
+}
+
+.features__col--cards--5--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
 .features__icon {
     width: 50px;
     height: auto;
@@ -97,6 +194,14 @@ body {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin-top: 30px;
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.features__btn--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 .features__btn:hover {
@@ -122,6 +227,50 @@ body {
 
 .features__h4-card--logistic {
     font-size: 1.2rem;
+}
+
+.hero__line--green--logistic {
+    opacity: 0;
+    transform: translate(-100px);
+    transition: all 1s ease-in-out 1s;
+}
+
+.hero__line--green--logistic--active {
+    opacity: 1;
+    transform: translate(0px);
+}
+
+.logistic__h4 {
+    opacity: 0;
+    transform: translate(-100px);
+    transition: all 1s ease-in-out;
+}
+
+.logistic__h4--active {
+    opacity: 1;
+    transform: translate(0%);
+}
+
+.features__h3__logistic {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.features__h3__logistic--active {
+    opacity: 1;
+    transform: translate(0%);
+}
+
+.logistic__p {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.logistic__p--active {
+    opacity: 1;
+    transform: translate(0%);
 }
 
 /* BENEFITS */
@@ -158,6 +307,21 @@ body {
 .benefits__btn:hover {
     text-decoration: none;
     color: #383838;
+}
+
+.features__col--cards--logistic--1, .features__col--cards--logistic--2,
+.features__col--cards--logistic--3, .features__col--cards--logistic--4,
+.features__col--cards--logistic--5, .features__col--cards--logistic--6,
+.features__col--cards--logistic--7, .features__col--cards--logistic--8,
+.features__col--cards--logistic--9, .features__col--cards--logistic--10 {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.card--active {
+    opacity: 1;
+    transform: translate(0px, 0px);
 }
 
 /* START */
