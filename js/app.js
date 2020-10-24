@@ -8,6 +8,7 @@ $(document).ready(function () {
     $(".hero__h3").addClass('hero__h3--active')
     $(".hero__p").addClass('hero__p--active')
     $(".features__h3").addClass('features__h3--active')
+    $(".features__h3__line").addClass('features__h3__line--active')
 })
 
 /* ANIMACIONES FEATURES SOFTWARE CARD 1 */
@@ -127,6 +128,7 @@ $(document).scroll(function scrollSimulador() {
     if (window.scrollY > ($(".features__h3__logistic").offset().top) - (window.innerHeight / 1.1)) {
 
         $(".features__h3__logistic").addClass('features__h3__logistic--active')
+        $(".features__h3__line--logistic").addClass('features__h3__line--logistic--active')
 
     }
 })

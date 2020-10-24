@@ -109,6 +109,17 @@ html, body {
     transform: translate(0%);
 }
 
+.features__h3__line {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out 1.5s;
+}
+
+.features__h3__line--active {
+    opacity: 1;
+    transform: translate(0%);
+}
+
 .features__h4-card {
     font-family: 'Josefin Sans', sans-serif;
     color: #383838;
@@ -260,6 +271,17 @@ html, body {
 }
 
 .logistic__h4--active {
+    opacity: 1;
+    transform: translate(0%);
+}
+
+.features__h3__line--logistic {
+    opacity: 0;
+    transform: translate(0px, 50px);
+    transition: all 1s ease-in-out;
+}
+
+.features__h3__line--logistic--active {
     opacity: 1;
     transform: translate(0%);
 }
