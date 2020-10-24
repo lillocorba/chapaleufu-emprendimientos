@@ -142,3 +142,77 @@ $(document).scroll(function scrollSimulador() {
 
     }
 })
+
+/* ANIMACION CARD 3-4 LOGISTIC */
+
+$(document).scroll(function scrollSimulador() {
+
+    if (window.scrollY > ($(".features__col--cards--logistic--3").offset().top) - (window.innerHeight / 1.1)) {
+
+        $(".features__col--cards--logistic--3").addClass('card--active')
+        $(".features__col--cards--logistic--4").addClass('card--active')
+
+    }
+})
+
+/* ANIMACION CARD 5-6 LOGISTIC */
+
+$(document).scroll(function scrollSimulador() {
+
+    if (window.scrollY > ($(".features__col--cards--logistic--5").offset().top) - (window.innerHeight / 1.1)) {
+
+        $(".features__col--cards--logistic--5").addClass('card--active')
+        $(".features__col--cards--logistic--6").addClass('card--active')
+
+    }
+})
+
+/* ANIMACION CARD 7-8 LOGISTIC */
+
+$(document).scroll(function scrollSimulador() {
+
+    if (window.scrollY > ($(".features__col--cards--logistic--7").offset().top) - (window.innerHeight / 1.1)) {
+
+        $(".features__col--cards--logistic--7").addClass('card--active')
+        $(".features__col--cards--logistic--8").addClass('card--active')
+
+    }
+})
+
+/* ANIMACION CARD 9-10 LOGISTIC */
+
+$(document).scroll(function scrollSimulador() {
+
+    if (window.scrollY > ($(".features__col--cards--logistic--9").offset().top) - (window.innerHeight / 1.1)) {
+
+        $(".features__col--cards--logistic--9").addClass('card--active')
+        $(".features__col--cards--logistic--10").addClass('card--active')
+
+    }
+})
+
+/* ANIMACION H4 BENIFITS & BTN */
+
+$(document).scroll(function scrollSimulador() {
+
+    if (window.scrollY > ($(".benefits__h4").offset().top) - (window.innerHeight / 1.1)) {
+
+        $(".benefits__h4").addClass('benefits__h4--active')
+        $(".benefits__btn").addClass('benefits__btn--active')
+
+    }
+})
+
+/* ANIMACION H4-H3-P START */
+
+$(document).scroll(function scrollSimulador() {
+
+    if (window.scrollY > ($(".start__h4--animated").offset().top) - (window.innerHeight / 1.1)) {
+
+        $(".start__h4--animated").addClass('start__h4--animated--active')
+        $(".start__h3").addClass('start__h3--active')
+        $(".start__p").addClass('start__p--active')
+        $(".start__form").addClass('start__form--active')
+
+    }
+})
