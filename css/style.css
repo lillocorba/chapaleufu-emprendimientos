@@ -471,6 +471,7 @@ html, body {
     padding: 10px;
     margin-bottom: 10px;
     width: 75%;
+    color: white;
 }
 
 .form__input:active, .form__input:focus {
@@ -493,6 +494,7 @@ html, body {
 
 .form__input--mensaje {
     border-radius: 20px;
+    color: white;
 } 
 
 /* FOOTER */
